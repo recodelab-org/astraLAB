@@ -1,0 +1,164 @@
+/**
+Theme Name: astraLAB
+Author: Enno Hyttrek
+Author URI: https://ennohyttrek.de
+Description: A child theme to explore the Astra Theme
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: astralab
+Template: astra
+*/
+
+/*
+LAYOUT
+*/
+
+
+.site-main {
+    padding-top: 2em;
+}
+
+
+
+/*
+COLOR & STYLE
+*/
+
+body {
+    background: hsl(200,21%,21%);
+}
+
+.site-content {
+    background: #fff;
+/*    background: hsl(200,13%,89%);
+    background: hsl(10,89%,34%);*/
+
+}
+
+.site-content * {
+/*      color: #fff;  */
+}
+
+.site-footer *,
+.site-footer a {
+    color: #fff;
+}
+
+
+/*
+TYPOGRAPHY
+*/
+
+body {
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+    font-size: 1.3em;
+    line-height: 1.5;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 700 !important;
+}
+
+/*
+SECONDARY MENU W/ ICONS
+*/
+
+#ast-hf-menu-2 i {
+    font-size: 1.5em;
+}
+
+#ast-hf-menu-2 li {
+    padding: 0;
+    margin-right: 0.5rem;
+}
+
+#ast-hf-menu-2 li:nth-child(1),
+#ast-hf-menu-2 li:nth-child(2) {
+        margin-right: 3rem;
+}
+
+#ast-hf-menu-2 li a {
+    padding: 0;
+    margin: 0;
+}
+
+#ast-hf-menu-2,
+#ast-hf-menu-2 a,
+#ast-hf-menu-2 a:visited {
+    color: rgba(255,255,255,0.6);
+}
+
+#ast-hf-menu-2 a:hover,
+#ast-hf-menu-2 a:active {
+    color: #fff;
+}
+
+
+
+
+/*
+CUSTOM ICONS W/ FONT AWESOME
+*/
+
+.ast-above-header .my-contact {
+    display: flex;
+    width: 100%;
+    /*    position: fixed;*/
+    /*    z-index: 1000;*/
+    /*    background: hsl(200,55%,21%);*/
+}
+
+/*
+
+.ast-above-header .my-contact span.info {
+    display: inline-block;
+    padding-bottom: 0.3em;
+}
+
+*/
+.ast-above-header .my-contact,
+.ast-above-header .my-contact a,
+.ast-above-header .my-contact a:visited {
+    color: #fff;
+}
+
+.ast-above-header .my-social {}
+
+.ast-above-header .my-contact div {
+    margin-right: 3rem;
+}
+
+.ast-above-header .my-contact i {
+    font-size: 1.5em;
+}
+
+.ast-above-header .my-social i {
+    margin-right: 0.5rem;
+}
+
+
+.ast-above-header .my-contact i,
+.ast-above-header .my-contact a {
+    display: inline-block;
+}
+
+/*
+OVERRIDES
+*/
+
+#ast-mobile-header > div.ast-above-header-wrap > div > div > div.site-header-above-section-left.site-header-section.ast-flex.site-header-section-left {
+	background: green !important;
+	width: 8em !important;
+}
+
+
+#ast-desktop-header > div.ast-below-header-wrap {
+    background: red !important;
+}
