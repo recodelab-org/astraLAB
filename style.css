@@ -26,7 +26,7 @@ COLOR & STYLE
 */
 
 body {
-    background: hsl(200,21%,21%);
+    background: hsl(200,21%,21%) !important;
 }
 
 .site-content {
@@ -153,12 +153,3 @@ CUSTOM ICONS W/ FONT AWESOME
 OVERRIDES
 */
 
-#ast-mobile-header > div.ast-above-header-wrap > div > div > div.site-header-above-section-left.site-header-section.ast-flex.site-header-section-left {
-	background: green !important;
-	width: 8em !important;
-}
-
-
-#ast-desktop-header > div.ast-below-header-wrap {
-    background: red !important;
-}
